@@ -1,12 +1,11 @@
 package example;
 
-import example.merge_two_sorted_lists.ListNode;
+import example.find_the_index_of_the_first_occurrence_in_a_string.Solution;
 
 public class LeetCodeMain {
 
     public static void main(String[] args) {
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
+        Solution solution = new Solution();
+        System.out.println( solution.strStr("sadbutsad", "sad"));
     }
 }
