@@ -1,11 +1,11 @@
 package example;
 
-import example.length_of_last_word.Solution;
+import example.add_binary.Solution;
 
 public class LeetCodeMain {
 
     public static void main(String[] args) {
         var solution = new Solution();
-        solution.lengthOfLastWord("a");
+        System.out.println(solution.addBinary("11", "1"));
     }
 }
