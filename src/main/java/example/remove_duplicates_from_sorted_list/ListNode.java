@@ -1,9 +1,8 @@
-package example.merge_two_sorted_lists;
+package example.remove_duplicates_from_sorted_list;
 
 public class ListNode {
-
-    public int val;
-    public ListNode next;
+    int val;
+    ListNode next;
 
     ListNode() {
     }
