@@ -1,12 +1,17 @@
 package example;
 
-import example.merge_sorted_array.Solution;
+import example.same_tree.Solution;
+import example.same_tree.TreeNode;
 
 
 public class LeetCodeMain {
 
     public static void main(String[] args) {
         var solution = new Solution();
-        solution.merge(new int[]{2,0}, 1, new int[]{1}, 1);
+
+        var tree2 = new TreeNode(2);
+        var tree3 = new TreeNode();
+        var tree1 = new TreeNode(1, tree2, tree3);
+        solution.isSameTree(tree1, tree1);
     }
 }
